@@ -35,8 +35,9 @@
     "block_ocn": "5562",
     "block_switch_clli": "DLLTTXID1MD",
     "block_effective": "2007-05-25",
+    "aggregator_reported_carrier": "T-Mobile USA Inc",
     "current_serving_carrier_lrn": null,
-    "notes": "Thousand-block 817-217-1 is MetroPCS; prefix-level Verizon labels are misleading for this MSISDN. Live LRN not obtained."
+    "notes": "Thousand-block 817-217-1 is MetroPCS; SearchPeopleFree reports T-Mobile USA Inc. Live LRN not obtained."
   },
   "reputation": {
     "robokiller": {
@@ -54,22 +55,46 @@
     "paste_hits": false
   },
   "identity": {
-    "subscriber_name": null,
+    "subscriber_name": "Araceli S. Rodriguez",
+    "aliases": ["Araceli Rodriguez", "Arceli Rodriguez"],
+    "age_reported": 66,
     "cnam": null,
-    "address": null,
+    "address": "2605 Azle Ave Apt A, Fort Worth, TX 76106",
+    "prior_addresses": [
+      "3209 Grover Ave, Fort Worth, TX 76106",
+      "312 NW 21st St, Fort Worth, TX 76164"
+    ],
+    "associates": ["Nicholas G. Garcia"],
     "emails": [],
     "usernames": [],
-    "social_profiles": []
+    "social_profiles": [],
+    "historical_associated_names": [
+      "Jose Valero",
+      "Nicole Valero",
+      "Abby Martinez",
+      "Teani D. Cook",
+      "Lardell Wesley Sr.",
+      "Joslyn Meshell Fuller",
+      "Staneisha L. Sterns",
+      "Jessica Garcia Lopez"
+    ],
+    "attribution_sources": [
+      "https://www.fastpeoplesearch.com/817-217-1519",
+      "https://searchpeoplefree.com/phone-lookup/817-217-1519",
+      "https://www.cyberbackgroundchecks.com/phone/817-217-1519",
+      "https://www.advancedbackgroundchecks.com/phone/817-217-1519"
+    ],
+    "attribution_notes": "Three aggregators explicitly label Araceli S. Rodriguez as current owner. Not carrier-authoritative."
   },
   "limitations": [
     "No paid LRN/CNAM/HLR API access",
-    "People-search and several spam sites returned HTTP 403",
+    "Identity from commercial people-search aggregators only",
     "Truecaller/Sync.me identity gated behind authentication"
   ],
   "confidence": {
     "format_and_geo": "high",
     "thousand_block_ocn": "high",
-    "current_carrier": "unknown",
-    "subscriber_identity": "unresolved"
+    "current_carrier": "medium",
+    "subscriber_identity": "medium"
   }
 }
