@@ -2,6 +2,7 @@
   "case_id": "OSINT-PN-18172171519",
   "collected_at_utc": "2026-11-12",
   "authorization_stated": true,
+  "deep_search": true,
   "target": {
     "raw": "18172171519",
     "e164": "+18172171519",
@@ -36,8 +37,8 @@
     "block_switch_clli": "DLLTTXID1MD",
     "block_effective": "2007-05-25",
     "aggregator_reported_carrier": "T-Mobile USA Inc",
-    "current_serving_carrier_lrn": null,
-    "notes": "Thousand-block 817-217-1 is MetroPCS; SearchPeopleFree reports T-Mobile USA Inc. Live LRN not obtained."
+    "aggregator_line_status": "active",
+    "current_serving_carrier_lrn": null
   },
   "reputation": {
     "robokiller": {
@@ -50,51 +51,96 @@
       "reviews": 0,
       "suspicious_activity_reported": false
     },
-    "exact_match_web_mentions": false,
-    "reddit_hits": false,
-    "paste_hits": false
+    "spam_reports_aggregator": 0
   },
   "identity": {
     "subscriber_name": "Araceli S. Rodriguez",
     "aliases": ["Araceli Rodriguez", "Arceli Rodriguez"],
     "age_reported": 66,
+    "dob_range_reported": "1959-1960",
     "cnam": null,
-    "address": "2605 Azle Ave Apt A, Fort Worth, TX 76106",
-    "prior_addresses": [
-      "3209 Grover Ave, Fort Worth, TX 76106",
-      "312 NW 21st St, Fort Worth, TX 76164"
+    "occupancy_role": "likely_tenant",
+    "address_current": {
+      "street": "2605 Azle Ave Apt A",
+      "city": "Fort Worth",
+      "state": "TX",
+      "zip": "76106",
+      "county": "Tarrant",
+      "lat": 32.796337812,
+      "lon": -97.3767488142,
+      "subdivision": "Rosen Heights Second Filing",
+      "tad_account": "2541467",
+      "property_owners": ["Edgar Rivera", "Estela Rivera"],
+      "owner_mailing": "3607 N Nuchols St, Fort Worth, TX 76106",
+      "deed_date": "2024-11-26",
+      "deed_instrument": "D224212778",
+      "property_type": "multi_family",
+      "notice_value_2026": 205000
+    },
+    "addresses_prior": [
+      {
+        "street": "3209 Grover Ave",
+        "city": "Fort Worth",
+        "state": "TX",
+        "zip": "76106",
+        "subdivision": "Diamond Hill Highlands Addn",
+        "tad_account": "00709417",
+        "property_owners": ["Sebastian Munoz", "Eloisa Munoz"],
+        "corroboration": "FastPeopleSearch lists age-66 Araceli Rodriguez at this address",
+        "confidence": "medium_high"
+      },
+      {
+        "street": "312 NW 21st St",
+        "city": "Fort Worth",
+        "state": "TX",
+        "zip": "76164",
+        "corroboration": "CyberBackgroundChecks only",
+        "confidence": "low_medium"
+      }
+    ],
+    "relatives": [
+      "Fidencio Herrera",
+      "Joyce Maynard",
+      "Alex Rodriguez",
+      "Angela Rodriguez",
+      "Armando Rodriguez",
+      "Hector Fabian Herrera",
+      "Kenneth Alexander Rodriguez",
+      "Ludem Aragon",
+      "Concepcion R. Herrera Sr."
     ],
     "associates": ["Nicholas G. Garcia"],
+    "network_notes": [
+      "Joyce Maynard also appears as Joyce K. Rodriguez / Joyce K. Aragon with relative Araceli Rodriguez (Radaris)",
+      "Concepcion R. Herrera Fort Worth listing names Fidencio H. Herrera (BeenVerified)",
+      "Azle corridor Herrera/Taqueria Herrera cluster is unproven same household"
+    ],
     "emails": [],
     "usernames": [],
     "social_profiles": [],
-    "historical_associated_names": [
-      "Jose Valero",
-      "Nicole Valero",
-      "Abby Martinez",
-      "Teani D. Cook",
-      "Lardell Wesley Sr.",
-      "Joslyn Meshell Fuller",
-      "Staneisha L. Sterns",
-      "Jessica Garcia Lopez"
+    "excluded_namesakes": [
+      "Araceli Rodriguez ~40 DOB 1986-10-01 Fort Worth",
+      "Araceli Luna Rodriguez NPI 1154100865",
+      "Maria Araceli Rodriguez ~56 DOB 1970-02-01",
+      "Araceli Rodriguez-Grimaldo 1972-2025",
+      "Araceli Rodriguez ~45 Alvarado TX"
     ],
     "attribution_sources": [
       "https://www.fastpeoplesearch.com/817-217-1519",
       "https://searchpeoplefree.com/phone-lookup/817-217-1519",
       "https://www.cyberbackgroundchecks.com/phone/817-217-1519",
-      "https://www.advancedbackgroundchecks.com/phone/817-217-1519"
-    ],
-    "attribution_notes": "Three aggregators explicitly label Araceli S. Rodriguez as current owner. Not carrier-authoritative."
+      "https://www.fastpeoplesearch.com/address/3209-grover-ave_fort-worth-tx-76106",
+      "https://www.tad.org/property?account=2541467",
+      "https://www.tad.org/property?account=00709417"
+    ]
   },
-  "limitations": [
-    "No paid LRN/CNAM/HLR API access",
-    "Identity from commercial people-search aggregators only",
-    "Truecaller/Sync.me identity gated behind authentication"
-  ],
   "confidence": {
     "format_and_geo": "high",
     "thousand_block_ocn": "high",
     "current_carrier": "medium",
-    "subscriber_identity": "medium"
+    "subscriber_identity": "medium",
+    "current_address": "medium",
+    "prior_grover_address": "medium_high",
+    "property_ownership_by_subject": "low_negative_not_owner"
   }
 }
