@@ -1,0 +1,75 @@
+{
+  "case_id": "OSINT-PN-18172171519",
+  "collected_at_utc": "2026-11-12",
+  "authorization_stated": true,
+  "target": {
+    "raw": "18172171519",
+    "e164": "+18172171519",
+    "national": "(817) 217-1519",
+    "country": "US",
+    "valid": true,
+    "timezone": ["America/Chicago"],
+    "libphonenumber_type": "FIXED_LINE_OR_MOBILE"
+  },
+  "geo": {
+    "npa": "817",
+    "nxx": "217",
+    "line": "1519",
+    "thousand_block": "1",
+    "rate_center": "Arlington",
+    "county": "Tarrant",
+    "state": "TX",
+    "lata": "552",
+    "cbsa": "Dallas-Fort Worth-Arlington, TX",
+    "cbsa_code": "19100",
+    "overlay": "682",
+    "approx_lat": 32.734,
+    "approx_lon": -97.1094,
+    "zips_associated": ["76011", "76012", "76010"]
+  },
+  "carrier": {
+    "line_type_nxx": "wireless",
+    "prefix_summary_company": "CELLCO PARTNERSHIP DBA VERIZON WIRELESS - TX",
+    "prefix_summary_ocn": "6506",
+    "block_company": "METROPCS, INC.",
+    "block_ocn": "5562",
+    "block_switch_clli": "DLLTTXID1MD",
+    "block_effective": "2007-05-25",
+    "current_serving_carrier_lrn": null,
+    "notes": "Thousand-block 817-217-1 is MetroPCS; prefix-level Verizon labels are misleading for this MSISDN. Live LRN not obtained."
+  },
+  "reputation": {
+    "robokiller": {
+      "user_reputation": "Positive",
+      "status": "Allowed",
+      "comments": 0
+    },
+    "should_i_answer": {
+      "rating": null,
+      "reviews": 0,
+      "suspicious_activity_reported": false
+    },
+    "exact_match_web_mentions": false,
+    "reddit_hits": false,
+    "paste_hits": false
+  },
+  "identity": {
+    "subscriber_name": null,
+    "cnam": null,
+    "address": null,
+    "emails": [],
+    "usernames": [],
+    "social_profiles": []
+  },
+  "limitations": [
+    "No paid LRN/CNAM/HLR API access",
+    "People-search and several spam sites returned HTTP 403",
+    "Truecaller/Sync.me identity gated behind authentication"
+  ],
+  "confidence": {
+    "format_and_geo": "high",
+    "thousand_block_ocn": "high",
+    "current_carrier": "unknown",
+    "subscriber_identity": "unresolved"
+  }
+}
